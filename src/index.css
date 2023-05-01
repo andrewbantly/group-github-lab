@@ -19,6 +19,12 @@ code {
   margin: 2rem;
 }
 
+.homeCardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .homeCard {
   background-color: #ffffff;
   border-radius: 5px;
@@ -27,6 +33,11 @@ code {
   padding: 1.5rem;
   max-width: 300px;
   text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.homeCard:hover {
+  transform: scale(1.03);
 }
 
 .homeCardImage {
