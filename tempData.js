@@ -1,4 +1,4 @@
-const team = [{
+const gitTogetherTeam = [{
     name: "Abdallah",
     bio: `Throughout my time at the warehouse, I developed a passion for technology and decided to pursue a career in software engineering. I am currently in the process of obtaining a software engineering certificate at General Assembly, where I have learned valuable skills such as JavaScript, HTML/CSS, and SQL. I am eager to continue my education and am excited to soon learn Python.`,
     image: "https://media.licdn.com/dms/image/D4E03AQEdkw7-T2ImjA/profile-displayphoto-shrink_800_800/0/1680196090361?e=1688601600&v=beta&t=QKlF7jq6ljaJNjuL2JRJRJUFi5eJgaRYB3IFfqfBtnY"
@@ -12,3 +12,4 @@ const team = [{
     image: "https://media.licdn.com/dms/image/D5603AQEICARRnoENhQ/profile-displayphoto-shrink_800_800/0/1677704970769?e=1688601600&v=beta&t=5K8YcfHNN3OvcQlanMOVQ0Op6w2yO5GEo2ohlGAZS5A"
 }
 ]
+export default gitTogetherTeam;
