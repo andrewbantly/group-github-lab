@@ -36,8 +36,23 @@ code {
   transition: transform 0.2s ease-in-out;
 }
 
-.homeCard:hover {
-  transform: scale(1.03);
+.homeCardContent {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.homeCard:hover .homeCardContent {
+  opacity: 1;
+}
+
+.homeCard:hover .homeCardImage {
+  opacity: 0.3;
 }
 
 .homeCardImage {
